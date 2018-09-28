@@ -55,7 +55,7 @@ class App extends Component {
         <div className="App-title">Music center</div>
         <div className="keywords-section">
          <p>Keywords to use in search:</p>
-         <strong>adele, michael jackson, the beatles, bruno mars, alicia keys</strong>
+         <strong>adele, michael jackson, the beatles, bruno mars, alicia keys, justin timberlake</strong>
         </div>
         <FormGroup>
           <InputGroup>
