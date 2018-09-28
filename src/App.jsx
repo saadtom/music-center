@@ -14,9 +14,8 @@ class App extends Component {
     }
   }
 
-
+  // let's do an ajax call and push the data
   search() {
-
     const BASE_URL = 'https://api.spotify.com/v1/search?';
     let FETCH_URL = `${BASE_URL}q=${this.state.query}&type=artist&limit=1`;
     let accessToken = 'BQAtcJHm1TktropHQXuovh4ZgnB1iTvUrih-9_HNRgfXDqYtx6ST_kuGA6bwjJRnmGeR97BYm23tAJ9x_Y1k5swUwLS0L-i5PoE55RZ-qbUrByS0PFe3xgVeo2kp8bW66RyXULQIp67-S00xvju-yTXyhPBm3QxNaRKEhCQZzhlfUIY';
